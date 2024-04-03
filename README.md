@@ -1,11 +1,11 @@
 # HALF_ADDER
-AIM:
+# AIM:
 To simulate and synthesis half adder using vivado.
 
-Apparatus Required:
+# Apparatus Required:
 vivado 2023.2 software.
 
-Procedure:
+# Procedure:
 STEP:1 Start the vivado software, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed.
@@ -27,7 +27,8 @@ STEP:7 compare the output with truth table.
 ![image](https://github.com/RESMIRNAIR/HALF_ADDER/assets/154305926/020e1531-1c11-42e5-9f27-f09ba459984d)
 # Carry = A AND B
 ![image](https://github.com/RESMIRNAIR/HALF_ADDER/assets/154305926/988ae131-0822-4d23-941b-eaafad349a72)
-VERILOG CODE:
+# VERILOG CODE:
+
 module Half_adder(a,b,sum,carry);
 
 input a,b;
@@ -39,8 +40,11 @@ xor g1(sum,a,b);
 and g2(carry,a,b);
 
 endmodule
-![image](https://github.com/Bharathchows18/HALF_ADDER/assets/161430676/28b0ca71-4156-40b6-9998-fbb7cbb69a75)
-RESULT:
+
+# output
+![318266628-1afe94ba-17a8-4572-85f5-f4faee672a8a](https://github.com/Bharathchows18/HALF_ADDER/assets/161430676/722b95ad-91d9-427b-a294-37a07085d85e)
+
+# RESULT:
 Thus the verilog program for half adder has been simulated and verified successfully.
 
 
